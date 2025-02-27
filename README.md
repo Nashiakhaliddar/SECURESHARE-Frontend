@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Secure File-Sharing App (Based on YouTube Tutorial)**  
 
-## Getting Started
+This is a **secure file-sharing application** built with **Rust & Axum (backend)** and **Next.js & ShadCN (frontend)**. It implements **end-to-end encryption using AES & RSA** to ensure secure file transfers.  
 
-First, run the development server:
+🚀 **This project is based on a YouTube tutorial by [AarambhDevHub](https://www.youtube.com/@AarambhDevHub).**  
+📹 **Original Video:** [Watch here](https://youtu.be/t5w2dauFmhM?si=O04cNpp03aPaYENc)  
+🔗 **Original GitHub Repos:**  
+- **Backend (Rust & Axum):** [GitHub Link](https://github.com/AarambhDevHub/file-share-rust-backend)  
+- **Frontend (Next.js & ShadCN):** [GitHub Link](https://github.com/AarambhDevHub/file-share-frontend)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 **What I Learned from This Project**  
+- Setting up a **Rust & Axum** backend for API requests.  
+- Implementing **AES & RSA encryption** for secure file-sharing.  
+- Using **Next.js & ShadCN** to create a responsive frontend.  
+- Connecting frontend and backend via **secure API routes**.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 **How to Run the Project**  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **1️⃣ Backend (Rust & Axum)**  
+set up the backend:  
+```sh  
+ 
+cargo run  
+```  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **2️⃣ Frontend (Next.js & ShadCN)**  
+run the frontend:  
+```sh  
 
-## Learn More
+npm install  
+npm run dev  
+```  
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚠️ **Credits & Disclaimer**  
+This project is heavily based on the work of **AarambhDevHub**. I followed the tutorial to learn **full-stack development, encryption, and API integration**. If you like this project, please support the original creator by subscribing to their channel!  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
